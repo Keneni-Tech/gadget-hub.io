@@ -9,7 +9,7 @@ TIMEZONE = 'Europe/Rome'
 DEFAULT_LANG = 'English'
 
 # Set the full site URL (with repo name)
-SITEURL = 'https://Keneni-Tech/gadget-hub.io'
+SITEURL = 'https://github.com/Keneni-Tech/gadget-hub.io'
 
 ##https://github.com/Keneni-Tech
 # Disable relative URLs so links are generated properly

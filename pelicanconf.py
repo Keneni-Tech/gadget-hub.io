@@ -7,6 +7,14 @@ PATH = "content"
 TIMEZONE = 'Europe/Rome'
 
 DEFAULT_LANG = 'English'
+
+# Set the full site URL (with repo name)
+SITEURL = 'https://Keneni-Tech.github.io/gadget-hub.io'
+
+# Disable relative URLs so links are generated properly
+RELATIVE_URLS = False
+
+
 import os
 THEME = os.path.join(os.path.dirname(__file__), 'pelican-themes', 'zurb-F5-basic')
 
@@ -36,3 +44,7 @@ DEFAULT_PAGINATION = 10
 
 # Uncomment following line if you want document-relative URLs when developing
 # RELATIVE_URLS = True
+
+##------------------------
+# pelican content -s publishconf.py
+# pelican content -o docs -s publishconf.py
